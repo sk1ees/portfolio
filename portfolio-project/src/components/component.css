@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.firstpage {
+    background: radial-gradient(#FEEEDC 10%, rgb(255, 255, 255));
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+}
+
+.quote {
+    font-family: "Space Grotesk", "Space Grotesk Placeholder", sans-serif;
+}
+
+.intro_1 {
+    font-family: "Raleway", "Raleway Placeholder", sans-serif;
+}
+
+.intro_2 {
+    font-family: "Instrument Serif", "Instrument Serif Placeholder", serif;
+    letter-spacing: -3px;
+}
+
+.frontDetails {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.cursor {
+    background-color: #111;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+/* Second Page  */
+
+
+.showGit {
+    background: url('https://framerusercontent.com/images/CZVOx7GKVVtYCMDO9lB4YSDuXo.jpg');
+    background-size: cover;
+}
