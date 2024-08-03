@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import './component.css'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { motion } from 'framer-motion';
+import Navbar from './Navbar';
 const FirstPage = () => {
     useGSAP(() => {
         // write here gsap code
@@ -44,12 +45,9 @@ const FirstPage = () => {
     return (
         <section className='firstpage w-full h-[90vh]'>
 
-            <nav className='flex justify-between p-4'>
-                <h1 className='title text-xl '>sk1ees</h1>
-                <h1 className='text-3xl'><RxHamburgerMenu /></h1>
-            </nav>
 
-            <div className="intro w-full h-[23rem]  text-center leading-[1.5] flex justify-center items-center">
+
+            <div className="intro w-full h-[27rem]  text-center leading-[1.5] flex justify-center items-center">
                 <div className="wrapper">
 
                     <p className='intro_1 text-[23px] text-black '>deep is a</p>
