@@ -2,6 +2,7 @@ import './App.css'
 import About from './components/About';
 import Featured from './components/Featured';
 import FirstPage from './components/FirstPage'
+import Footer from './components/Footer';
 import SecondPage from './components/SecondPage'
 import LocomotiveScroll from 'locomotive-scroll';
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <SecondPage />
         <Featured />
         <About />
+        <Footer />
       </div>
     </>
   )
