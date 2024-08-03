@@ -20,17 +20,23 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.quote {
+.quote,
+.cardDesc {
     font-family: "Space Grotesk", "Space Grotesk Placeholder", sans-serif;
 }
 
-.intro_1 {
+.intro_1,
+.more {
     font-family: "Raleway", "Raleway Placeholder", sans-serif;
 }
 
-.intro_2 {
+.intro_2  {
     font-family: "Instrument Serif", "Instrument Serif Placeholder", serif;
     letter-spacing: -3px;
+}
+.aboutText{
+    font-family: "Instrument Serif", "Instrument Serif Placeholder", serif;
+   
 }
 
 .frontDetails {
@@ -60,4 +66,13 @@ body {
 .showGit {
     background: url('https://framerusercontent.com/images/CZVOx7GKVVtYCMDO9lB4YSDuXo.jpg');
     background-size: cover;
+}
+
+.card1 {
+    display: grid;
+    grid-template-columns: repeat(1, 35% 1fr);
+}
+
+.cardText {
+    font-family: "Instrument Serif", "Instrument Serif Placeholder", serif;
 }
