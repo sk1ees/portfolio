@@ -18,7 +18,7 @@ const Navbar = () => {
         gsap.to('.navItems', {
             opacity: isOpen ? 1 : 0,
             x: isOpen ? 0 : 50,
-            duration: 0.4,
+            duration: 0.2,
             stagger: 0.1,
 
         });

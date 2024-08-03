@@ -1,5 +1,6 @@
 import React from 'react'
 import './component.css'
+import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <section className='footerGrid items-center  w-full h-[100vh]   footer ' id='contact'>
@@ -24,10 +25,13 @@ const Footer = () => {
                     <div className="wrapper w-[60%] text-center">
 
 
-                        <button className='contactText py-3 text-black  text-[25px] font-normal btn'>hello@deeeprr.fr</button>
+                        <button className='contactText py-3 text-black  text-[25px] font-normal btn' id='email'>hello@deeeprr.fr</button>
                         <hr />
-                        <button className='contactText py-3 text-black  text-[25px] font-normal btn'>
-                            or leave me a word
+                        <button className='contactText py-3 text-black  text-[25px] font-normal btn' id='message'>
+                            <Link to={'/contact'}>
+
+                                or leave me a word
+                            </Link>
                         </button>
                     </div>
                 </div>

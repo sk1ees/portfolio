@@ -27,7 +27,7 @@ body {
 
 .aboutpage {
     background: radial-gradient(#f5cdff 10%, rgb(255, 255, 255) 70%);
-  
+
 }
 
 .footer {
@@ -114,4 +114,15 @@ hr {
 
 .cardText {
     font-family: "Instrument Serif", "Instrument Serif Placeholder", serif;
+}
+
+#email:hover,
+#message:hover {
+    padding-left: 30px;
+    transition: all 300ms;
+}
+
+#email,
+#message {
+    transition: all 300ms;
 }

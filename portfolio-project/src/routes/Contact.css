@@ -1,0 +1,63 @@
+/* background: radial-gradient(#dce0fe 10%, rgb(255, 255, 255)); */
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.wrapperRight {
+    font-family: "Raleway", "Raleway Placeholder", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.available {
+    font-family: "Raleway", "Raleway Placeholder", sans-serif;
+    font-size: 16px;
+}
+
+.formDetails {
+    font-family: "Raleway", "Raleway Placeholder", sans-serif;
+    line-height: 30px;
+}
+
+.contactForm {
+    background: radial-gradient(#dce0fe 10%, rgb(255, 255, 255));
+
+
+}
+
+.contactQuery {
+    background: radial-gradient(#dce0fe 10%, rgb(255, 255, 255));
+
+
+}
+
+.wrapperRight input,
+textarea {
+    font-family: "Space Grotesk", "Space Grotesk Placeholder", sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+
+.submitForm {
+    font-family: "Poppins", sans-serif;
+}
+
+.time {
+    font-family: "Poppins", sans-serif;
+}
+
+.talk {
+    font-family: "Instrument Serif", "Instrument Serif Placeholder", serif;
+    letter-spacing: -2.36px;
+}
+
+.contactQuote {
+    font-family: "Raleway", "Raleway Placeholder", sans-serif;
+}
+
+.wrapperFooter {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr 1fr);
+}
