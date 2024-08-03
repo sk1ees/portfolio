@@ -8,10 +8,11 @@ import SecondPage from './components/SecondPage'
 import LocomotiveScroll from 'locomotive-scroll';
 function App() {
 
-  const locomotiveScroll = new LocomotiveScroll();
+ 
+  
   return (
     <>
-      <div className='w-full min-h-screen bg-black'>
+      <div className='w-full min-h-screen bg-black scroll-smooth' >
         <Navbar />
         <FirstPage />
         <SecondPage />

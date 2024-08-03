@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import LocomotiveScroll from 'locomotive-scroll';
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +32,13 @@ const Navbar = () => {
 
     }
 
+    const RedirectPage = (section) => {
+        const scroll = new LocomotiveScroll();
+        const target = document.querySelector(`#${section}`);
+        console.log(target);
+        scroll.scrollTo(target);
+
+    }
 
     return (
         <>
@@ -50,15 +58,15 @@ const Navbar = () => {
 
                         <div className={`navItems more font-bold   rounded-xl border-[2px]   w-full p-5 text-[28px] leading-[3rem] pe-10 me-7 bg-white text-black text-start ${isOpen ? "block" : "hidden"}`}>
                             <div className="flex justify-between">
-                                <p>Home</p>
+                                <p> <a href="#home" onClick={() => { RedirectPage("home") }}>Home</a></p>
                                 <div className="flex gap-4 text-[16px] ">
                                     <button className='bg-black text-white px-3 rounded text-[16px] '>eng</button>
                                     <button>हिंदी</button>
                                 </div>
                             </div>
-                            <p>About</p>
-                            <p>Contact</p>
-                            <p>Services</p>
+                            <p><a href="#about" onClick={() => { RedirectPage("about") }}>About</a></p>
+                            <p> <a href="#contact" onClick={() => { RedirectPage("contact") }}>Contact</a></p>
+                            <p> <a href="#projects" onClick={() => { RedirectPage("service") }}>Services</a></p>
 
                             <button className=' bg-black rounded text-white text-[16px] w-full font-light px-2'>Available for freelance-Remote</button>
                         </div>

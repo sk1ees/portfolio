@@ -43,7 +43,7 @@ const FirstPage = () => {
     })
 
     return (
-        <section className='firstpage w-full h-[90vh]'>
+        <section className='firstpage w-full h-[90vh]' id='home'>
 
 
 

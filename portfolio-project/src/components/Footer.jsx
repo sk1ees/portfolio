@@ -2,7 +2,7 @@ import React from 'react'
 import './component.css'
 const Footer = () => {
     return (
-        <section className='footerGrid items-center  w-full h-[100vh]   footer'>
+        <section className='footerGrid items-center  w-full h-[100vh]   footer ' id='contact'>
             <div className="">
                 <div className="featuredTitle flex items-normal justify-center gap-3  pt-10 ">
 
