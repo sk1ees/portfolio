@@ -1,5 +1,10 @@
 import React from 'react'
 import './Contact.css'
+import { FaArrowLeft } from "react-icons/fa";
+import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 const Contact = () => {
 
     let currentTime = new Date();
@@ -7,12 +12,71 @@ const Contact = () => {
     let timeString = currentTime.toLocaleTimeString('en-US', options);
     window.scrollTo(0, 0);
 
+    useGSAP(() => {
+        // write here gsap code
+        gsap.from('.wrapperBTN', {
+            x: 20,
+            opacity: 0,
+            duration: 0.5,
+            delay: 0.2,
+            repeat: -1,
+            yoyo: true,
+
+        })
+        gsap.from('.formRight', {
+            y: 100,
+            opacity: 0,
+            duration: 1,
+            delay: 0.3,
+            rotation: -5,
+
+        })
+        gsap.from('.wrapperFormLeft p', {
+            y: 100,
+            opacity: 0,
+            duration: 0.5,
+            delay: 0.3,
+            stagger: 0.2,
+
+            rotation: 5,
+        })
+        gsap.from('.contactFooter', {
+            y: 100,
+            opacity: 0,
+            duration: 0.5,
+            delay: 3,
+            stagger: 0.2,
+
+
+        })
+        gsap.from('.contactQuote .span', {
+
+            opacity: 0,
+            duration: 1,
+            delay: 1,
+            stagger: 0.1,
+            repeat: -1,
+
+        })
+
+
+
+    })
+
     return (
         <>
 
             <div className="w-full h-screen contactRouter">
 
                 <div className="contactForm w-full h-screen ">
+                    <div className="wrapperBTN absolute top-6 left-6">
+
+                        <Link to={'/'}>
+                            <button className='rounded-[100%] bg-black p-5  text-white btnArrow text-2xl'><FaArrowLeft /></button>
+
+                        </Link>
+
+                    </div>
                     <div className="flex justify-center items-center w-full h-screen">
 
                         <div className="wrapper grid grid-cols-2 w-3/4 h-[77%] justify-center ">
@@ -51,8 +115,23 @@ const Contact = () => {
                     </div>
 
                 </div>
-                <div className="contactQuery w-full h-[50vh] flex justify-center items-center">
-                    <p className='contactQuote text-[25px] text-black'>I hope you enjoyed your journey here.Thank you for visiting!</p>
+                <div className="contactQuery w-full h-[80vh] flex justify-center items-center">
+
+                    <p className='contactQuote text-[25px] text-black'>
+                        {"I hope you enjoyed your journey here.Thank you for visiting!".split('').map((item, index) =>
+                        (
+                            <span
+                                key={index}
+                                className='span'>
+
+                                {item}
+                            </span>
+                        )
+
+                        )}
+                    </p>
+
+
 
                 </div>
                 <div className="contactFooter w-full h-[10vh] text-black ">

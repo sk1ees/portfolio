@@ -57,7 +57,19 @@ textarea {
     font-family: "Raleway", "Raleway Placeholder", sans-serif;
 }
 
+
 .wrapperFooter {
     display: grid;
     grid-template-columns: repeat(1, 2fr 1fr);
+}
+
+.btnArrow:hover {
+    color: khaki;
+    rotate: 45deg;
+    transition: all 300ms ease;
+}
+
+.btnArrow {
+
+    transition: all 300ms ease;
 }

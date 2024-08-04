@@ -5,6 +5,7 @@ import './component.css'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { motion } from 'framer-motion';
 import Navbar from './Navbar';
+import { Link } from 'react-router-dom';
 const FirstPage = () => {
     useGSAP(() => {
         // write here gsap code
@@ -91,7 +92,12 @@ const FirstPage = () => {
                     <p className='quoteRight'>Available for Freelance</p>
                     <div className="btn">
 
-                        <button className='quoteRight p-2  border-none w-32 float-right items-end rounded-md bg-[#E95011] text-white'>Get in Touch</button>
+                        <button className='quoteRight p-2  border-none w-32 float-right items-end rounded-md bg-[#E95011] text-white'>
+                            <Link to={'/contact'}>
+
+                                Get in Touch
+                            </Link>
+                        </button>
                     </div>
                 </div>
 
