@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import { FaArrowLeft } from "react-icons/fa";
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion';
+
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 const Contact = () => {

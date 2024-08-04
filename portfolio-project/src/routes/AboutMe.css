@@ -1,0 +1,34 @@
+.wrapperAbout {
+    background: url('https://framerusercontent.com/images/CZVOx7GKVVtYCMDO9lB4YSDuXo.jpg');
+    background-size: cover;
+}
+
+.raleway {
+    font-family: "Raleway", "Raleway Placeholder", sans-serif;
+}
+
+.instrument {
+    font-family: "Instrument Serif", "Instrument Serif Placeholder", serif;
+}
+
+.service {
+    grid-template-columns: repeat(1, 40% 1fr);
+}
+
+.space {
+    font-family: "Space Grotesk", "Space Grotesk Placeholder", sans-serif;
+}
+
+.radient-red {
+
+    background: radial-gradient(#e5e0ff 10%, rgb(255, 255, 255));
+}
+.radient-red-2 {
+
+    background: radial-gradient(#ffead6 10%, rgb(255, 255, 255) 70%);
+}
+
+.radient-purp {
+    
+    background: radial-gradient(circle, rgba(255, 247, 236, 0.857) 10%, rgba(255, 255, 255, 1) 37%);
+}

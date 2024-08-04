@@ -1,5 +1,6 @@
 import React from 'react'
 import './component.css'
+import { Link } from 'react-router-dom'
 const About = () => {
     return (
         <>
@@ -23,7 +24,14 @@ const About = () => {
                             <div className="">
                                 <p className='aboutText text-[3vw] mb-5 text-black font-normal italic'>~ who am I ?</p>
                                 <p className='more text-[23px]'>Hi, I'm deep, and since I get bored easily, I tend to try everything. That's how a graphic designer ended up becoming a webmaster and a motion designer & web developer.</p>
-                                <button className=' more p-2 px-6  border-none w-[9vw] rounded-md bg-[#E95011] text-white mb-12 mt-5'>About me</button> <br />
+                                <button className=' more p-2 px-6  border-none w-[9vw] rounded-md bg-[#E95011] text-white mb-7 mt-5'>
+                                    <Link to={'/about'}>
+                                        About me
+
+                                    </Link>
+
+
+                                </button> <br />
                                 <button className='more p-2 px-6  border-solid border-black border-[2px] w-[auto] rounded-md  text-black '>Available for freelance - Remote</button>
                             </div>
 
