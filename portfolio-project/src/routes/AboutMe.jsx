@@ -248,13 +248,9 @@ const AboutMe = () => {
                 <div className="w-full h-screen pt-12 radient-purp">
 
                     <div className="featuredTitle flex items-normal justify-center gap-3 mb-7 mt-10">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="(red, rgb(22, 22, 22))" width={50}>
-                            <g xmlns="http://www.w3.org/2000/svg" transform="translate(0 0.104478)"><path d="M232,64a8,8,0,0,1-8,8H88V188.69l34.34-34.35a8,8,0,0,1,11.32,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L72,188.69V64a8,8,0,0,1,8-8H224A8,8,0,0,1,232,64Z"></path></g></svg>
-                        <p className='intro_2 text-[60px] mb-5 text-black  italic  '>Services</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="(red, rgb(22, 22, 22))" width={50}>
-                            <g xmlns="http://www.w3.org/2000/svg" transform="translate(0 0.810968)"><path d="M229.66,165.66l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L168,188.69V72H32a8,8,0,0,1,0-16H176a8,8,0,0,1,8,8V188.69l34.34-34.35a8,8,0,0,1,11.32,11.32Z"></path></g>
 
-                        </svg>
+                        <p className='intro_2 text-[60px] mb-5 text-black  italic  '>Services</p>
+
                     </div>
 
                     <div className=" wrapperService w-[80%] h-[70%] mx-auto ">
@@ -328,13 +324,9 @@ const AboutMe = () => {
                 <div className="w-full h-3/4 pt-12 radient-purp">
 
                     <div className="featuredExperience flex items-normal justify-center gap-3 mb-7 mt-10">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="(red, rgb(22, 22, 22))" width={50}>
-                            <g xmlns="http://www.w3.org/2000/svg" transform="translate(0 0.104478)"><path d="M232,64a8,8,0,0,1-8,8H88V188.69l34.34-34.35a8,8,0,0,1,11.32,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L72,188.69V64a8,8,0,0,1,8-8H224A8,8,0,0,1,232,64Z"></path></g></svg>
-                        <p className='intro_2 text-[60px] mb-5 text-black  italic  '>Experiences</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="(red, rgb(22, 22, 22))" width={50}>
-                            <g xmlns="http://www.w3.org/2000/svg" transform="translate(0 0.810968)"><path d="M229.66,165.66l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L168,188.69V72H32a8,8,0,0,1,0-16H176a8,8,0,0,1,8,8V188.69l34.34-34.35a8,8,0,0,1,11.32,11.32Z"></path></g>
 
-                        </svg>
+                        <p className='intro_2 text-[60px] mb-5 text-black  italic  '>Experiences</p>
+
                     </div>
 
                     <div className=" wrapperService w-[80%] h-[50%] mx-auto ">
@@ -373,13 +365,9 @@ const AboutMe = () => {
                 {/* works  */}
                 <div className="w-full h-[80vh] radient-red-2">
                     <div className="featuredWork flex items-normal justify-center gap-3 mb-1 mt-10">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="(red, rgb(22, 22, 22))" width={50}>
-                            <g xmlns="http://www.w3.org/2000/svg" transform="translate(0 0.104478)"><path d="M232,64a8,8,0,0,1-8,8H88V188.69l34.34-34.35a8,8,0,0,1,11.32,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L72,188.69V64a8,8,0,0,1,8-8H224A8,8,0,0,1,232,64Z"></path></g></svg>
+                      
                         <p className='intro_2 text-[43px] mb-5 text-black  italic  '>Know me through my work</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="(red, rgb(22, 22, 22))" width={50}>
-                            <g xmlns="http://www.w3.org/2000/svg" transform="translate(0 0.810968)"><path d="M229.66,165.66l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L168,188.69V72H32a8,8,0,0,1,0-16H176a8,8,0,0,1,8,8V188.69l34.34-34.35a8,8,0,0,1,11.32,11.32Z"></path></g>
-
-                        </svg>
+                     
                     </div>
                     <div className="w-full h-[90%]  grid grid-cols-2 overflow-hidden">
                         <div className=" flex flex-col items-center justify-center leftWork">

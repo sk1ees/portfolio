@@ -2,6 +2,9 @@ import React from 'react'
 import './component.css'
 import { Link } from 'react-router-dom'
 const Footer = () => {
+    let currentTime = new Date();
+    let options = { timeStyle: 'short', hour12: true };
+    let timeString = currentTime.toLocaleTimeString('en-US', options);
     return (
         <section className='footerGrid items-center  w-full h-[100vh]   footer ' id='contact'>
             <div className="">
@@ -18,7 +21,7 @@ const Footer = () => {
 
                         <p className='aboutText text-5xl font-normal'>Whats Next?</p>
                         <p className='footerQoute text-[23px] font-normal'>Lets give a look at your projects ! Feel free to reach out.</p>
-                        <small className='contactText text-sm '>12:59 PM</small>
+                        <small className='contactText text-sm '>{timeString}</small>
                     </div>
                 </div>
                 <div className="flex flex-col items-center justify-center">
